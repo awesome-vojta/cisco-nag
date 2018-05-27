@@ -1,0 +1,23 @@
+SOSVEL-Trablšůtink38
+Řešení druhého kola
+1. Seznámili jsme se s programováním GPIO na RaspberryPi. Informace jsme čerpali
+z doporučeného zdroje. https://learn.sparkfun.com/tutorials/raspberry-gpio
+2. Zapojili jsme LED diodu a napsali skript, který ji rozblikal. ŘešenýskriptvjazycePythonje
+přiložen jako příloha2_flash.py.
+3. Zapojili jsme obvod s tlačítkem a LED diodou. Při stisku tlačítka se LED dioda rozsvítí. Protyto
+tlačítka jsme piny na našem RPi nastavili jako vstup s pull-down rezistorem. Skript vPythonu
+je společný i pro úlohu 4 a je přiložen jako příloha4A_push_button.py.
+4. Zapojení a skript jsmedáleupravilitak, aby první stisknutí LED diodu rozsvítilo a další
+jizhaslo.Řešený skript v jazyce Python je přiložen jako4B_push_butt_impulz.py.
+5. V tétoúloze jsme přiřadili každému znaku Morseovy abecedy vlastní časrozsvícené/zhasnuté
+doby. Dále jsme použili knihovnu urllib2 a příkaz urlopen. Kód zprávy jsme odblikali a zprávu
+dekódovali. Zpráva znítakto: ZDRAVIME TYM TRABLSUTINK-38 TED JE 20 12 215 22:16:4 (ve
+zprávě je vždy aktuální datuma čas serveru). Script této úlohy je přiložen jako 5_morse.py.
+6. Seznámilijsme se s funkcí PWM a použiliji pro řízenísvitu LED diody.
+Stiskemtlačítkadojdekesníženísvitudiody o hodnotuzadanouvescriptu. Script této úlohy
+jepřiloženjako6_PWM.py.
+7. Zapojili jsme RGB diodu a pomocí pulzně šířkové modulace a šesti tlačítek jsmenamíchali
+různé barvy. Řešený program v jazyce Python je přiložen jako příloha7_rgb.py.
+8. Jelikož jsme měli málo rezistorů a ježíšek nám žádné další nenadělil, byli jsmenuceniudělat
+ozdobu jen z jedné RGB diody. Diodu jsme rozblikali do rytmu vánočníkoledy pomocí
+aplikacelightshow.http://lightshowpi.org/
